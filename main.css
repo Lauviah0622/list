@@ -1,0 +1,200 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+caption,
+th,
+td {
+    text-align: left;
+    font-weight: normal;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+}
+
+blockquote,
+q {
+    quotes: """";
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+}
+
+.main {
+    display: flex;
+    padding: 6px;
+    height: 100%
+}
+
+.main-item {
+    margin: 6px;
+
+}
+
+/* left-sidebar */
+.left-sidebar {
+    background-color: rgb(255, 173, 173);
+    width: 220px;
+}
+    /* personal-info */
+
+.personal-info {
+    height: 90px;
+    padding: 5px;
+    background-color: rgb(238, 164, 164);
+    display: flex;
+    align-items: center;
+}
+
+.personal-info * {
+    margin: 5px;
+    border: solid 1px;
+}
+
+.personal-info .propic {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+
+.personal-info .user-name {
+    flex-grow: 1;
+}
+
+
+.personal-info .icon {
+}
+
+
+    /* all-list */
+.all-list > .list-item {
+    display: flex;
+    padding: 10px;
+}
+
+.list-item > * {
+    margin: 0 5px 0 5px;
+}
+
+.all-list * {
+    border: 1px solid;
+}
+
+
+/* mid-window */
+.mid-window {
+    background-color: #f1f1f1;
+    flex-grow: 5;
+}
+
+/* right-window */
+.right-window {
+    background-color: rgb(248, 177, 177);
+    flex-grow: 3;
+}
